@@ -1,0 +1,148 @@
+@font-face {
+	font-family: 'Gotham';
+	src: url('fonts/Gotham-Medium.eot');
+	src: url('fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Gotham-Medium.woff2') format('woff2'),
+		url('fonts/Gotham-Medium.woff') format('woff'),
+		url('fonts/Gotham-Medium.ttf') format('truetype'),
+		url('fonts/Gotham-Medium.svg#Gotham-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Andale Mono';
+	src: url('AndaleMono.eot');
+	src: url('AndaleMono.eot?#iefix') format('embedded-opentype'),
+		url('AndaleMono.woff') format('woff'),
+		url('AndaleMono.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+    background-color: #40003E;
+}
+
+.ocean_backphoto img{
+    opacity: .4;
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#small_logo{
+    height: 5%;
+    width: 5%;
+    z-index: 100;
+}
+
+#small_logo_container2{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 35px;
+    left: 0;
+}
+
+.title{
+    font-family: 'Andale Mono';
+    font-size: 18px;
+    color: white;
+    top: 130px;
+    left: 430px;
+    height: 30px; 
+    width: 250px;
+    position: absolute;
+    text-align: left;
+    line-height: 19px;
+}
+
+.year_type{
+    font-family: 'Andale Mono';
+    font-size: 12px;
+    color: white;
+    top: 130px;
+    left: 760px;
+    height: 30px; 
+    width: 250px;
+    position: absolute;
+    text-align: right;
+    line-height: 19px;
+}
+
+.text1{
+    font-family: 'Andale Mono';
+    font-size: 12px;
+    color: white;
+    top: 230px;
+    left: 430px;
+    height: 100px; 
+    width: 250px;
+    position: absolute;
+    text-align: justify;
+    line-height: 19px;
+}
+
+.text2{
+    font-family: 'Andale Mono';
+    font-size: 12px;
+    color: white;
+    top: 230px;
+    left: 760px;
+    height: 100px; 
+    width: 250px;
+    position: absolute;
+    text-align: justify;
+    line-height: 19px;
+}
+
+#projection_img1{
+    width: 80%;
+}
+
+#projection_img_container1{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 450px;
+    left: 0px;
+}
+
+#projection_img2{
+    width: 80%;
+}
+
+#projection_img_container2{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 630px;
+    left: 0px;
+}
+
+#projection_img3{
+    width: 80%;
+}
+
+#projection_img_container3{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 810px;
+    left: 0px;
+}
+
+#proj_1_arrow{
+    width: 3%;
+}
+
+#proj_1_arrow_container{
+    width:100%;
+    text-align: center;
+    position: absolute;
+    top: 1100px;
+    left: 0;
+}
