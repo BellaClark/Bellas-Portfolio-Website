@@ -11,5 +11,5 @@ if(isset($_POST['submit_contact'])) {
     $txt = "You have been contacted by: ".$name;
 
     mail($mailTo, $txt, $headers, $person);
-    header("Location: home.html?mailsend");
+    header("Location: about_page.html?mailsend");
 }
