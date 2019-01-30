@@ -147,7 +147,7 @@ function preload() {
   stopclick = loadImage("assets/stopclick.png");
   
   //SOUNDS
-  adrum = loadSound('sounds/bdrum.mp3'); // needs correct file here
+  adrum = loadSound('sounds/adrum.mp3'); // needs correct file here
   bdrum = loadSound('sounds/bdrum.mp3');
   cdrum = loadSound('sounds/cdrum.mp3');
   ddrum = loadSound('sounds/ddrum.mp3');
