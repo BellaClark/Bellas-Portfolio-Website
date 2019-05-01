@@ -44,12 +44,29 @@ body {
 }
 
 .footer {
-   color: white;
-   text-align: center;
-   font-family: 'GothamLight', Arial, sans-serif;
-   font-size: 11px;
-   padding: 8px 0px 8px 0px;
-   background-color: #40003E;
+    color: #0D012D;
+    text-align: center;
+    font-family: 'GothamLight', Arial, sans-serif;
+    font-size: 11px;
+    padding: 8px 0px;
+    margin: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+#icons{
+    padding: 8px 0px;
+}
+
+#icon {
+    width: 20px;
+    padding: 0px 10px;
+    opacity: 1;
+}
+
+#icon:hover{
+    opacity: .5;
+    transition: .3s;
 }
 
 .np{
@@ -59,86 +76,6 @@ body {
     font-size: 20px;
     padding-top: 2%;
     padding-bottom: 2%;
-}
-
-#icons{
-    padding: 8px 0px 8px 0px;
-}
-
-#fbIcon {
-    width: .84%;
-    padding-right: 20px;
-    opacity: 1;
-}
-
-@media (max-width: 800px) {
-    #fbIcon {
-        width: 1.4%;
-        padding-right: 20px;
-        opacity: 1;
-    }
-}
-
-#fbIcon:hover{
-    opacity: .5;
-    transition: .3s;
-}
-
-#mailIcon {
-    width: 1.7%;
-    padding-right: 10px;
-    opacity: 1;
-}
-
-@media (max-width: 800px) {
-    #mailIcon {
-        width: 3%;
-        padding-right: 10px;
-        opacity: 1;
-    }
-}
-
-#mailIcon:hover{
-    opacity: .5;
-    transition: .3s;
-}
-
-#linkIcon{
-    width: 1.7%;
-    padding-left: 10px;
-    opacity: 1;
-}
-
-@media (max-width: 800px) {
-    #linkIcon{
-        width: 3%;
-        padding-left: 10px;
-        opacity: 1;
-    }
-}
-
-#linkIcon:hover{
-    opacity: .5;
-    transition: .3s;
-}
-
-#insIcon{
-    width: 1.5%;
-    padding-left: 14px;
-    opacity: 1;
-}
-
-@media (max-width: 800px) {
-    #insIcon{
-        width: 2.7%;
-        padding-left: 14px;
-        opacity: 1;
-    }
-}
-
-#insIcon:hover{
-    opacity: .5;
-    transition: .3s;
 }
 
 #small_logo{
@@ -164,21 +101,11 @@ body {
 }
 
 .nav{
-    text-align: right;
-    height: 70px;
-    top: 4%;
-    line-height: 70px;
-    position: fixed;
-    width: 100%;
-    z-index: 20;
-}
-
-.navbar-menu {
+    display: inline-block;
+    position: absolute;
+    padding: 20px;
+    right: 20px;
     font-family: 'Gotham';
-    margin: 0% 4% 0% 0%;
-    font-size: 1em;
-    text-align: right;
-     z-index: 20;
 }
 
 .navbar-menu a{
@@ -213,16 +140,33 @@ label{
         text-align: center;
         width: 100%;
         display: none;
+        box-shadow: 0px 0px 5px lightslategray;
     }
     .navbar-menu a{
         display: block;
         margin: 0;
         background-color: white;
-        opacity: .8;
+        padding: 0px 20px;
     }
     #toggle:checked + .navbar-menu{
         display: block;
     }
+}
+
+.navbar-menu a:link{
+    color: #0D012D;
+    text-decoration: none;
+}
+
+.navbar-menu a:visited{
+    color: #0D012D;
+    text-decoration: none;
+}
+
+.navbar-menu a:hover{
+    color: #764977;
+    text-decoration: none;
+    transition: .3s;
 }
 
 
